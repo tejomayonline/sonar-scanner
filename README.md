@@ -15,4 +15,4 @@ Sonar Scanner with SonarQube and Postgres
 - go to project root and run `sonar-scanner -Dsonar.login=YOUR_SONAR_LOGIN_ID -Dsonar.password=YOUR_SONAR_LOGIN_PASSWORD`. (Note: the project to scan should have `sonar.properties` file or need to put manually during runtime.)
 - On successful completion goto the sonar portal. The Project will be added.
 
-Inspired from `https://github.com/bitnami/bitnami-docker-sonarqube`
+Inspired by `https://github.com/bitnami/bitnami-docker-sonarqube`
