@@ -1,6 +1,10 @@
 # sonar-scanner
 Sonar Scanner with SonarQube and Postgres
 
+#### Prerequisite
+- download sonar-scanner from `https://docs.sonarqube.org/latest/analysis/scan/sonarscanner`
+- update system path variable with sonar-scanner/bin dir. Add `export PATH="/Users/YOUR_USER/sonar-scanner-4.0.0.1744-macosx/bin:$PATH"` to bash.
+
 #### Steps to run sonar scanner locally
 - `docker-compose up -d` to run sonar scanner.
 -  check `http://localhost:9000` for the sonar admin panel.
