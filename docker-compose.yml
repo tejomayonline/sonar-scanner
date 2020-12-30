@@ -1,4 +1,4 @@
-version: "2"
+version: "3"
 
 services:
   sonarqube:
@@ -6,7 +6,7 @@ services:
     expose:
       - 9000
     ports:
-      - "9000:9000"
+      - "127.0.0.1:9000:9000"
     networks:
       - sonarnet
     environment:
@@ -32,7 +32,6 @@ services:
 
 networks:
   sonarnet:
-    driver: bridge
 
 volumes:
   sonarqube_conf:
