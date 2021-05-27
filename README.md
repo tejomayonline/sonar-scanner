@@ -1,6 +1,9 @@
 # sonar-scanner
 Sonar Scanner with SonarQube and Postgres
 
+
+### Simply running sonarqube continer
+ - docker run -d --name sonarqube -e SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true -p 9000:9000 sonarqube:latest
 #### Prerequisite
 - download sonar-scanner from `https://docs.sonarqube.org/latest/analysis/scan/sonarscanner`
 - update system path variable with sonar-scanner/bin dir. Add `export PATH="/Users/YOUR_USER/sonar-scanner-4.0.0.1744-macosx/bin:$PATH"` to bash ( i.e .bash_aliases/ .bash_profile/ .bashrc).
